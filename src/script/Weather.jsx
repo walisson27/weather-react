@@ -21,12 +21,12 @@ const Weather = () => {
                   <h2>
                     <i className="fa-solid fa-location-dot"></i>
                     <span id="city">Maceió</span>
-                    <img src="" alt="Bandeira do pais" id="country" />
+                    <img src="https://www.countryflagicons.com/SHINY/64/BR.png" alt="Bandeira do pais" id="country" />
                   </h2>
                   <p id="temperature"><span>38</span>&deg;C</p>
                   <div id="description-container">
                     <p id="description">Nublado</p>
-                    <img src="" alt="condições do tempo" id="weather-icon"/>
+                    <img src="http://openweathermap.org/img/wn/01d.png" alt="condições do tempo" id="weather-icon"/>
                   </div>
                   <div id="details-container">
                     <p id="umidity">
