@@ -1,4 +1,3 @@
-
 import "../css/style.css"
 const Weather = () => {
     return(
