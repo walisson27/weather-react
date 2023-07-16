@@ -2,7 +2,7 @@
      Temperatura Clima
 </h1>
 <h4 align="center">
-  🚀 Desenvolvido com Vuejs
+  🚀 Desenvolvido com ReactJS
 </h4>
 <p align="center">
   <a href="">Pagina do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,7 +18,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJs
 - CSS
 - HTML
-- Utilizando Api [PokéAPI](https://pokeapi.co/)
+- Axios
+- Utilizando Api [openweathermap](openweathermap)
 <br>
 
 ## 💻 Instalação
