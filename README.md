@@ -5,7 +5,7 @@
   🚀 Desenvolvido com ReactJS
 </h4>
 <p align="center">
-  <a href="">Pagina do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://weather-react-lake.vercel.app/">Pagina do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
@@ -27,6 +27,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Para iniciar o **Projeto** utilize os comandos:
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
