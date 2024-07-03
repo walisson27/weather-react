@@ -46,7 +46,7 @@ const Weather = () => {
                     value={location}
                     onChange={event => setLocation(event.target.value)}
                     onKeyPress={searchLocation}
-                    placeholder='Pesquisa'
+                    placeholder='Pesquisa Cidade'
                     type='text'
                 />
             </div>
