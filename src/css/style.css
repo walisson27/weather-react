@@ -5,7 +5,60 @@
   margin: 0;
   padding: 0;
 }
-
+  .app.sunny-day {
+    background-image: url('../assets/img/sunny-day.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app.sunny-night {
+    background-image: url('../assets/img/sunny-night.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app.rainy-day {
+    background-image: url('../assets/img/chuva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app.rainy-night {
+    background-image: url('../assets/img/chuva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app.cloudy-day {
+    background-image: url('../assets/img/clouds.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app.cloudy-night {
+    background-image: url('../assets/img/cloudy-night.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
 body {
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -32,7 +85,7 @@ h1 {
 
 .app:before {
   content: '';
-  background: url('../assets/img/tempo.jpg') no-repeat center center/cover;
+  background: url('../assets/img/wallpaperbackground.jpg') no-repeat center center/cover;
   position: absolute;
   width: 100%;
   height: 100%;
