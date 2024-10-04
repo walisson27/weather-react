@@ -6,8 +6,9 @@ const Weather = () => {
     const [data, setData] = useState({});
     const [location, setLocation] = useState('');
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=3f65e51fc1f6a58787dba2ba72b64e6f&lang=pt_br`;
-
+    const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}&lang=pt_br`;
+    
     const searchLocation = (event) => {
         if (event.key === 'Enter') {
             axios.get(url).then((response) => {
